@@ -1,0 +1,93 @@
+/**{
+    color:brown;
+}*/
+/* attribute tag */
+/*a[href="https://www.facebook.com/"]
+{
+    color:bisque;
+}*/
+/*descendent selector....................*/
+/*div p{
+    color:blue;
+}
+p{
+    color:brown;
+}
+.para
+{
+    color:pink;
+}
+div.para{
+    color:black;
+}*/
+/*direct child............................*/
+/*ul.list>li{
+    color:blueviolet;
+}*/
+/*immediate sibling.....................li k baad wala li select ya color hota hai..*/
+/*li+li{
+    color:greenyellow;
+}
+li#fav-movie+li{
+    color:aqua;
+}
+/*GENERAL SIBLING ...................siblings ko color karta h by leaving first-one*/
+/* li~li{
+    color:yellowgreen;
+} */
+
+/*id k neeche wale sibling ko color krega*/
+/*li#fav-movie~li{
+     color:crimson;          
+} */
+/* 
+L = Link......ese hi rhta hai
+V = Visited.....after visit on
+H = hover.............dekh rhe hote hai or courser le jaate h tb
+A = active.........click krte hai tb
+*/
+
+nav a:link{
+    color:brown;
+    text-decoration:none;
+}
+nav a:visited{
+    color:aqua;
+}
+nav a:hover{
+    color:yellow;
+}
+nav a:active{
+    color:green;
+}
+
+/*ol li:first-child{
+    color:teal;
+}
+ol li:last-child{
+    color:deeppink;
+}*/
+
+/*ol li:nth-child(odd){
+    color:orangered;
+}
+ol li:nth-child(even){
+    color:green;
+}*/
+/*ol li:nth-child(4)
+{
+    color:red;
+}*/
+
+ol li:nth-child(3n+2)
+{
+    color:red;
+}
+
+/*only the first letter of a word in a paragraph will change*/
+/*p::first-letter                  
+    color:chartreuse;
+    font-size:25px;
+}*/
+
+
